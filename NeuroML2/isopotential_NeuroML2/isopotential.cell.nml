@@ -5,11 +5,11 @@
 
     <!-- NeuroML2 port of xpp-models/isopotential.ode. Uses NeuroML2 ComponentTypes (plus some custom ComponentTypes in LEMS). Parameter names and order follow original file where possible. -->
 
-    <Include file="leak.channel.nml" />
-    <Include file="Ks.channel.nml" />
-    <Include file="Kf.channel.nml" />
-    <Include file="Na.channel.nml" />
-    <Include file="NaP.channel.nml" />
+    <Include href="leak.channel.nml" />
+    <Include href="Ks.channel.nml" />
+    <Include href="Kf.channel.nml" />
+    <Include href="Na.channel.nml" />
+    <Include href="NaP.channel.nml" />
 
     <pointCellCondBased id="isopotential" C="4pF" v0="-54.56137733296305mV" thresh="-25mV">
 
